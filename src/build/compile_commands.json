@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build",
+  "command": "/usr/sbin/c++  -I/usr/include/antlr4-runtime -I\"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc\" -g -std=gnu++20   -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Calc.dir/CalcMain.cpp.o -c \"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/CalcMain.cpp\"",
+  "file": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/CalcMain.cpp",
+  "output": "CMakeFiles/Calc.dir/CalcMain.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build",
+  "command": "/usr/sbin/c++  -I/usr/include/antlr4-runtime -I\"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc\" -g -std=gnu++20   -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o -c \"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp\"",
+  "file": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp",
+  "output": "CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build",
+  "command": "/usr/sbin/c++  -I/usr/include/antlr4-runtime -I\"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc\" -g -std=gnu++20   -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o -c \"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp\"",
+  "file": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp",
+  "output": "CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build",
+  "command": "/usr/sbin/c++  -I/usr/include/antlr4-runtime -I\"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc\" -g -std=gnu++20   -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o -c \"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp\"",
+  "file": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp",
+  "output": "CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o"
+},
+{
+  "directory": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build",
+  "command": "/usr/sbin/c++  -I/usr/include/antlr4-runtime -I\"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc\" -g -std=gnu++20   -D_GNU_SOURCE -DEXPERIMENTAL_KEY_INSTRUCTIONS -D__STDC_CONSTANT_MACROS -D__STDC_FORMAT_MACROS -D__STDC_LIMIT_MACROS -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o -c \"/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp\"",
+  "file": "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp",
+  "output": "CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o"
+}
+]
