@@ -30,10 +30,14 @@ mkdir build
 cd build
 cmake ..
 make
+```
+---
 
 ## ▶️ Ejecución
 ./Calc ../ejemplo.expr
 ./Calc ../ejemplo.expr -O
+
+---
 
 ## 📈 Resultados
 Al ejecutar los ejemplos propuestos, se pudo observar claramente el impacto de la optimización. En el código sin optimizar, se mantienen llamadas completas, saltos innecesarios entre bloques y estructuras más extensas. En cambio, en el código optimizado, LLVM elimina instrucciones redundantes, simplifica el flujo del programa y añade atributos que mejoran el rendimiento del ejecutable.
