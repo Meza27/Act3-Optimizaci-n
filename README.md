@@ -34,9 +34,11 @@ make
 ---
 
 ## ▶️ Ejecución
+```bash
 ./Calc ../../ejemplo.expr
 ./Calc ../../ejemplo.expr -O
 ./Calc ../../ejemplo.expr -jit
+```
 
 ---
 
