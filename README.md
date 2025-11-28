@@ -34,8 +34,9 @@ make
 ---
 
 ## ▶️ Ejecución
-./Calc ../ejemplo.expr
-./Calc ../ejemplo.expr -O
+./Calc ../../ejemplo.expr
+./Calc ../../ejemplo.expr -O
+./Calc ../../ejemplo.expr -jit
 
 ---
 
