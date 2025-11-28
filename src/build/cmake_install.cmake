@@ -1,4 +1,4 @@
-# Install script for directory: /mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src
+# Install script for directory: /mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,7 +45,7 @@ endif()
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/install_local_manifest.txt"
+  file(WRITE "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -61,6 +61,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

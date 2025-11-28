@@ -53,10 +53,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build"
+CMAKE_BINARY_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build"
 
 # Utility rule file for acc_gen.
 
@@ -81,6 +81,6 @@ CMakeFiles/acc_gen.dir/clean:
 .PHONY : CMakeFiles/acc_gen.dir/clean
 
 CMakeFiles/acc_gen.dir/depend:
-	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/acc_gen.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/acc_gen.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/acc_gen.dir/depend
 

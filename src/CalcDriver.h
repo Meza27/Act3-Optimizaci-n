@@ -35,6 +35,7 @@ private:
   };
   std::map<std::string, float> symbols;
 
+public:
   LLVMContext context;
   std::unique_ptr<Module> module;
   std::unique_ptr<IRBuilder<>> irBuilder;
@@ -46,7 +47,6 @@ public:
       : module(std::make_unique<Module>("Calc", context)),
         irBuilder(std::make_unique<IRBuilder<>>(context)) {}
   std::any visitProgram(CalcParser::ProgramContext *ctx) override {
-    std::cout << ">>> ENTRE A visitProgram <<<" << std::endl;
     // nuestro programa llvm
     // define i32 @main()
     Function *mainFunc =

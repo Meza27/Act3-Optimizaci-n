@@ -1,8 +1,8 @@
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/intrinsics_gen.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/vt_gen.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/omp_gen.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/acc_gen.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/target_parser_gen.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/Calc.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/edit_cache.dir
-/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/intrinsics_gen.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/vt_gen.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/omp_gen.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/acc_gen.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/target_parser_gen.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/Calc.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/edit_cache.dir
+/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/rebuild_cache.dir

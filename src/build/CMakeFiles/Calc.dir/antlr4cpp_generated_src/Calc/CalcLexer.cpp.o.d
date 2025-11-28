@@ -1,7 +1,7 @@
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o: \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp \
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.h \
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.h \
  /usr/include/antlr4-runtime/antlr4-runtime.h \
  /usr/include/antlr4-runtime/antlr4-common.h \
  /usr/include/c++/15.2.1/algorithm \

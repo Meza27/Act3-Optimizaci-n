@@ -53,10 +53,10 @@ RM = /usr/sbin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src"
+CMAKE_SOURCE_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build"
+CMAKE_BINARY_DIR = "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Calc.dir/depend.make
@@ -69,9 +69,9 @@ include CMakeFiles/Calc.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Calc.dir/flags.make
 
-antlr4cpp_generated_src/Calc/CalcLexer.interp: /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/Calc.g4
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building Calc with ANTLR 4.13.2"
-	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src" && /usr/sbin/java -jar /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/../../antlr-4.13.2-complete.jar /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/Calc.g4 -o /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc -no-listener -Dlanguage=Cpp -visitor
+antlr4cpp_generated_src/Calc/CalcLexer.interp: /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/Calc.g4
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building Calc with ANTLR 4.13.2"
+	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src" && /usr/sbin/java -jar /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/../../antlr-4.13.2-complete.jar /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/Calc.g4 -o /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc -no-listener -Dlanguage=Cpp -visitor
 
 antlr4cpp_generated_src/Calc/CalcLexer.tokens: antlr4cpp_generated_src/Calc/CalcLexer.interp
 	@$(CMAKE_COMMAND) -E touch_nocreate antlr4cpp_generated_src/Calc/CalcLexer.tokens
@@ -104,74 +104,74 @@ CMakeFiles/Calc.dir/codegen:
 .PHONY : CMakeFiles/Calc.dir/codegen
 
 CMakeFiles/Calc.dir/CalcMain.cpp.o: CMakeFiles/Calc.dir/flags.make
-CMakeFiles/Calc.dir/CalcMain.cpp.o: /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/CalcMain.cpp
+CMakeFiles/Calc.dir/CalcMain.cpp.o: /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/CalcMain.cpp
 CMakeFiles/Calc.dir/CalcMain.cpp.o: CMakeFiles/Calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Calc.dir/CalcMain.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/CalcMain.cpp.o -MF CMakeFiles/Calc.dir/CalcMain.cpp.o.d -o CMakeFiles/Calc.dir/CalcMain.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/CalcMain.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Calc.dir/CalcMain.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/CalcMain.cpp.o -MF CMakeFiles/Calc.dir/CalcMain.cpp.o.d -o CMakeFiles/Calc.dir/CalcMain.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/CalcMain.cpp"
 
 CMakeFiles/Calc.dir/CalcMain.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calc.dir/CalcMain.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/CalcMain.cpp" > CMakeFiles/Calc.dir/CalcMain.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/CalcMain.cpp" > CMakeFiles/Calc.dir/CalcMain.cpp.i
 
 CMakeFiles/Calc.dir/CalcMain.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/CalcMain.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/CalcMain.cpp" -o CMakeFiles/Calc.dir/CalcMain.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/CalcMain.cpp" -o CMakeFiles/Calc.dir/CalcMain.cpp.s
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o: CMakeFiles/Calc.dir/flags.make
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o: antlr4cpp_generated_src/Calc/CalcLexer.cpp
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o: CMakeFiles/Calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp"
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.i
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcLexer.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcLexer.cpp.s
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o: CMakeFiles/Calc.dir/flags.make
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o: antlr4cpp_generated_src/Calc/CalcParser.cpp
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o: CMakeFiles/Calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp"
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.i
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcParser.cpp.s
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o: CMakeFiles/Calc.dir/flags.make
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o: antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o: CMakeFiles/Calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp"
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.i
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.s
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o: CMakeFiles/Calc.dir/flags.make
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o: antlr4cpp_generated_src/Calc/CalcVisitor.cpp
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o: CMakeFiles/Calc.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o"
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o -MF CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o.d -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o -c "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp"
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.i"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.i
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp" > CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.i
 
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.s"
-	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.s
+	/usr/sbin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.cpp" -o CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.s
 
 # Object files for target Calc
 Calc_OBJECTS = \
@@ -192,7 +192,7 @@ Calc: CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcVisitor.cpp.o
 Calc: CMakeFiles/Calc.dir/build.make
 Calc: CMakeFiles/Calc.dir/compiler_depend.ts
 Calc: CMakeFiles/Calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Calc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable Calc"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Calc.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -213,6 +213,6 @@ CMakeFiles/Calc.dir/depend: antlr4cpp_generated_src/Calc/CalcParser.cpp
 CMakeFiles/Calc.dir/depend: antlr4cpp_generated_src/Calc/CalcParser.h
 CMakeFiles/Calc.dir/depend: antlr4cpp_generated_src/Calc/CalcVisitor.cpp
 CMakeFiles/Calc.dir/depend: antlr4cpp_generated_src/Calc/CalcVisitor.h
-	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/expr_calc/src/build/CMakeFiles/Calc.dir/DependInfo.cmake" "--color=$(COLOR)"
+	cd "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build" "/mnt/c/Users/User/Desktop/Archivos Meza/Documentos UPC/Teoria de Compiladores/PC2/expr_calc/src/build/CMakeFiles/Calc.dir/DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/Calc.dir/depend
 

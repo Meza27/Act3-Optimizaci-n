@@ -1,7 +1,7 @@
 CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o: \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp \
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp \
  /usr/include/stdc-predef.h \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.h \
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcBaseVisitor.h \
  /usr/include/antlr4-runtime/antlr4-runtime.h \
  /usr/include/antlr4-runtime/antlr4-common.h \
  /usr/include/c++/15.2.1/algorithm \
@@ -398,5 +398,5 @@ CMakeFiles/Calc.dir/antlr4cpp_generated_src/Calc/CalcBaseVisitor.cpp.o: \
  /usr/include/antlr4-runtime/tree/xpath/XPathTokenElement.h \
  /usr/include/antlr4-runtime/tree/xpath/XPathWildcardAnywhereElement.h \
  /usr/include/antlr4-runtime/tree/xpath/XPathWildcardElement.h \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.h \
- /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.h
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcVisitor.h \
+ /mnt/c/Users/User/Desktop/Archivos\ Meza/Documentos\ UPC/Teoria\ de\ Compiladores/PC2/expr_calc/src/build/antlr4cpp_generated_src/Calc/CalcParser.h
